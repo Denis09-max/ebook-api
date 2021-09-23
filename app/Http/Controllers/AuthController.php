@@ -7,12 +7,15 @@ use Illuminate\Http\Request;
 class AuthController extends Controller
 {
     public function me(){
-        return ([
-            '3103119051',
-            'Denis Rimbawan',
-            'Laki-laki',
-            '+62 88215189372',
-            'XII RPL 2'
-        ]);
+        return
+        [
+            "NISN" => 3103119037,
+            "Nama" => "Denis Rimbawan",
+            "Gender" => "Laki-laki",
+            "Phone" => 6288215189372,
+            "Kelas" => "XII RPL 2"
+        ];
+
     }
+
 }
