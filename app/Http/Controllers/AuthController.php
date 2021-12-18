@@ -10,9 +10,9 @@ class AuthController extends Controller
         return
         [
             "NISN" => 3103119037,
-            "Nama" => "Denis Rimbawan",
+            "Nama" => "Bagas Makhali",
             "Gender" => "Laki-laki",
-            "Phone" => 6288215189372,
+            "Phone" => 6282313666691,
             "Kelas" => "XII RPL 2"
         ];
 
